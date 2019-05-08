@@ -1,0 +1,69 @@
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -70px;
+}
+#wrapper {
+    /*padding-left: calc(70px + 300px);*/
+    /*padding-left: calc(300px);*/ /* Это вообще можно удалить */
+    transition: all 0.4s ease 0s;
+}
+#sidebar-wrapper {
+    margin-left: -70px;
+    left: 70px;
+    width: 70px;
+    background: #373330;
+    position: fixed;
+    height: 100%;
+    overflow-y: hidden;
+    z-index: 1000;
+    transition: all 0.4s ease 0s;
+}
+
+#treeview-wrapper {
+    margin-left: -300px;
+    width: 300px;
+    background: #4A4542;
+    position: fixed;
+    height: 100%;
+    overflow-y: hidden;
+    z-index: 1000;
+    transition: all 0.4s ease 0s;
+}
+
+#page-content-wrapper {
+    min-width: 670px;
+    background-color: #FBFBFB;
+}
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 75px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#whobar-wrapper {
+    margin-right: -350px;
+    right: 350px;
+    width: 350px;
+    background: #393839;
+    position: fixed;
+    height: 100%;
+    overflow-y: hidden;
+    z-index: 1000;
+    transition: all 0.4s ease 0s;
+}
+.whobar-nav {
+    position: absolute;
+    top: 0;
+    width: 400px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    margin:0;
+}

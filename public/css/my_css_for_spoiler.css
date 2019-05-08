@@ -1,0 +1,34 @@
+.spoiler {
+    border: 1px solid #808080;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: x-small;
+}
+.spoiler-toggle-1 {
+    font-weight: bold;
+    cursor: default;
+    padding: 5px;
+    font-size: 10px;
+    color: #808080;
+}
+
+.spoiler-text-1 {
+    padding: 15px;
+}
+
+
+
+
+
+.spoiler-toggle-2 {
+    font-weight: bold;
+    cursor: default;
+    padding: 5px;
+    font-size: 10px;
+    color: #808080;
+}
+
+.spoiler-text-2 {
+    padding: 5px;
+}

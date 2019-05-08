@@ -1,0 +1,26 @@
+.my-btn-sample {
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #FF8C26;
+    *background-color: #FF8C26;
+    background-image: -moz-linear-gradient(top, #FFA707, #FF8C26);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FFA707), to(#FF8C26));
+    background-image: -webkit-linear-gradient(top, #FFA707, #FF8C26);
+    background-image: -o-linear-gradient(top, #FFA707, #FF8C26);
+    background-image: linear-gradient(to bottom, #FFA707, #FF8C26);
+    background-repeat: repeat-x;
+    border-color: #FF8C26;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFA707', endColorstr='#FF8C26', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.my-btn-sample:hover,
+.my-btn-sample:focus,
+.my-btn-sample:active,
+.my-btn-sample.active,
+.my-btn-sample.disabled,
+.my-btn-sample[disabled] {
+    color: #FFFFFF;
+    background-color: #FF8C26;
+    *background-color: #003bb3;
+}

@@ -1,0 +1,29 @@
+/* Style the list */
+ul.my_breadcrumb {
+    padding: 4px 16px;
+    list-style: none;
+    background-color: white;
+    border:1px solid grey;
+    height:30px;
+    width: calc(100% - 200px);
+    align:right;
+    margin-left: 200px;
+    border-radius: 3px;
+}
+ul.my_breadcrumb li {
+    display: inline;
+    font-size: 14px;
+}
+ul.my_breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.my_breadcrumb li a {
+    color: black;
+    text-decoration: none;
+}
+ul.my_breadcrumb li a:hover {
+    color: black;
+    text-decoration: underline;
+}
